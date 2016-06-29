@@ -10,6 +10,18 @@ import (
 	"fmt"
 )
 
+type Item struct {
+	Id int `json:"id"`
+	PoemVi string `json:"poem_vi"`
+}
+
+type Chapter struct{
+	Id int `json:"id"`
+	Slug string `json:"slug"`
+	Name string `json:"name"`
+	Total int `json:"total"`
+	Items []*Item `json:"items"`
+}
 
 func importChapter(fileName string, db *sql.DB){
 
@@ -39,7 +51,7 @@ func importChapter(fileName string, db *sql.DB){
 	}
 	for i := 0; i < len(chapter.Items); i++ {
 		fmt.Println("Item:", chapter.Items[i].Id)
-		_, err = insPost.Exec(chapter.Items[i].Id,chapter.Id, chapter.Items[i].Poem_vi)
+		_, err = insPost.Exec(chapter.Items[i].Id,chapter.Id, chapter.Items[i].PoemVi)
 		if err != nil {
 			panic(err.Error())
 		}
