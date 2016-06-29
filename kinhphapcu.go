@@ -23,7 +23,8 @@ type Item struct {
 type Chapter struct{
 	Id int `json:"id"`
 	Slug string `json:"slug"`
-	Name string `json:"Name"`
+	Name string `json:"name"`
+	Total int `json:"total"`
 	Items []*Item `json:"items"`
 }
 
@@ -91,7 +92,7 @@ func (sv *Server)Index(w http.ResponseWriter, r *http.Request){
 
 
 func (sv *Server)getChapters()([]*Chapter, error){
-	statement, err := sv.db.Prepare("SELECT id, slug, name FROM `chapters`")
+	statement, err := sv.db.Prepare("SELECT c.`id`, c.`slug`,  c.`name`, count(p.`id`) as total FROM `chapters` as c INNER JOIN `posts` AS p ON `c`.`id` = `p`.`chapter_id` GROUP By c.`id` ORDER BY c.`id`")
 	if err != nil {
 		return nil, err
 	}
@@ -106,7 +107,7 @@ func (sv *Server)getChapters()([]*Chapter, error){
 	var chapters []*Chapter
 	for rows.Next() {
 		var chapter Chapter;
-		if err := rows.Scan(&chapter.Id,&chapter.Slug, &chapter.Name); err != nil {
+		if err := rows.Scan(&chapter.Id,&chapter.Slug, &chapter.Name, &chapter.Total); err != nil {
 			return nil, err
 		}
 		chapters = append(chapters, &chapter);
