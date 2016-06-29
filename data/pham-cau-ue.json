@@ -1,66 +1,72 @@
-[
-  {
-    "id":235,
-    "poem_vi":"Ngươi nay giống lá héo,<br>Diêm sứ đang chờ ngươi,<br>Ngươi đứng trước cửa chết,<br>Đường trường thiếu tư lương."
-  },{
-    "id":236,
-    "poem_vi":"Hãy tự làm hòn đảo,<br>Tinh cần gấp, sáng suốt.<br>Trừ cấu uế, thanh tịnh,<br>Đến Thánh địa chư Thiên."
-  },{
-    "id":237,
-    "poem_vi":"Đời ngươi nay sắp tàn,<br>Tiến gần đến Diêm Vương.<br>Giữa đường không nơi nghỉ,<br>Đường trường thiếu tư lương."
-  },{
-    "id":238,
-    "poem_vi":"Hãy tự làm hòn đảo,<br>Tinh cần gấp sáng suốt.<br>Trừ cấu uế, thanh tịnh,<br>Chẳng trở lại sanh già"
-  },{
-    "id":239,
-    "poem_vi":"Bậc trí theo tuần tự.<br>Từng sát na trừ dần.<br>Như thợ vàng lọc bụi<br>Trừ cấu uế nơi mình."
-  },{
-    "id":240,
-    "poem_vi":"Như sét từ sắt sanh,<br>Sắt sanh lại ăn sắt,<br>Cũng vậy, quá lợi dưỡng<br>Tự nghiệp dẫn cõi ác."
-  },{
-    "id":241,
-    "poem_vi":"Không tụng làm nhớp kinh,<br>Không đứng dậy, bẩn nhà,<br>Biếng nhác làm nhơ sắc,<br>Phóng dật uế người canh"
-  },{
-    "id":242,
-    "poem_vi":"Tà hạnh nhơ đàn bà,<br>Xan tham nhớp kẻ thí,<br>Ác pháp là vết nhơ,<br>Đời này và đời sau."
-  },{
-    "id":243,
-    "poem_vi":"Trong hàng cấu uế ấy,<br>Vô minh, nhơ tối thượng,<br>Đoạn nhơ ấy, tỷ kheo,<br>Thành bậc không uế nhiễm."
-  },{
-    "id":244,
-    "poem_vi":"Dễ thay, sống không hổ<br>Sống lỗ mãng như quạ,<br>Sống công kích huênh hoang,<br>Sống liều lĩnh, nhiễm ô."
-  },{
-    "id":245,
-    "poem_vi":"Khó thay, sống xấu hổ,<br>Thường thường cầu thanh tịnh.<br>Sống vô tư, khiêm tốn,<br>Trong sạch và sáng suốt."
-  },{
-    "id":246,
-    "poem_vi":"Ai ở đời sát sinh,<br>Nói láo không chân thật,<br>Ở đời lấy không cho,<br>Qua lại với vợ người."
-  },{
-    "id":247,
-    "poem_vi":"Uống rượu men, rượu nấu,<br>Người sống đam mê vậy,<br>Chính ngay tại đời này,<br>Tự đào bới gốc mình."
-  },{
-    "id":248,
-    "poem_vi":"Vậy người, hãy nên biết,<br>Không chế ngự là ác.<br>Chớ để tham phi pháp,<br>Làm người đau khổ dài."
-  },{
-    "id":249,
-    "poem_vi":"Do tín tâm, hỷ tâm<br>Loài người mới bố thí.<br>Ở đây ai bất mãn<br>Người khác được ăn uống,<br>Người ấy ngày hoặc đêm,<br>Không đạt được tâm định?"
-  },{
-    "id":250,
-    "poem_vi":"Ai cắt được, phá được,<br>Tận gốc nhổ tâm ấy.<br>Người ấy ngày hoặc đêm,<br>Đạt được tâm thiền định."
-  },{
-    "id":251,
-    "poem_vi":"Lửa nào bằng lửa tham!<br>Chấp nào bằng sân hận!<br>Lưới nào bằng lưới si!<br>Sông nào bằng sông ái!"
-  },{
-    "id":252,
-    "poem_vi":"Dễ thay thấy lỗi người,<br>Lỗi mình thấy mới khó.<br>Lỗi người ta phanh tìm,<br>Như sàng trấu trong gạo,<br>Còn lỗi mình, che đậy,<br>Như kẻ gian dấu bài."
-  },{
-    "id":253,
-    "poem_vi":"Ai thấy lỗi của người,<br>Thường sanh lòng chỉ trích,<br>Người ấy lậu hoặc tăng,<br>Rất xa lậu hoặc diệt."
-  },{
-    "id":254,
-    "poem_vi":"Hư không, không dấu chân,<br>Ngoài đây, không sa môn,<br>Chúng sanh thích hý luận,<br>Như lai, hý luận trừ."
-  },{
-    "id":255,
-    "poem_vi":"Hư không, không dấu chân,<br>Ngoài đây, không sa môn.<br>Các hành không thường trú,<br>Chư Phật không giao động."
-  }
-]
+{
+  "id": 18,
+  "name": "Phẩm Cấu Uế",
+  "slug": "pham-cau-ue",
+  "items":[
+    {
+      "id":235,
+      "poem_vi":"Ngươi nay giống lá héo,<br>Diêm sứ đang chờ ngươi,<br>Ngươi đứng trước cửa chết,<br>Đường trường thiếu tư lương."
+    },{
+      "id":236,
+      "poem_vi":"Hãy tự làm hòn đảo,<br>Tinh cần gấp, sáng suốt.<br>Trừ cấu uế, thanh tịnh,<br>Đến Thánh địa chư Thiên."
+    },{
+      "id":237,
+      "poem_vi":"Đời ngươi nay sắp tàn,<br>Tiến gần đến Diêm Vương.<br>Giữa đường không nơi nghỉ,<br>Đường trường thiếu tư lương."
+    },{
+      "id":238,
+      "poem_vi":"Hãy tự làm hòn đảo,<br>Tinh cần gấp sáng suốt.<br>Trừ cấu uế, thanh tịnh,<br>Chẳng trở lại sanh già"
+    },{
+      "id":239,
+      "poem_vi":"Bậc trí theo tuần tự.<br>Từng sát na trừ dần.<br>Như thợ vàng lọc bụi<br>Trừ cấu uế nơi mình."
+    },{
+      "id":240,
+      "poem_vi":"Như sét từ sắt sanh,<br>Sắt sanh lại ăn sắt,<br>Cũng vậy, quá lợi dưỡng<br>Tự nghiệp dẫn cõi ác."
+    },{
+      "id":241,
+      "poem_vi":"Không tụng làm nhớp kinh,<br>Không đứng dậy, bẩn nhà,<br>Biếng nhác làm nhơ sắc,<br>Phóng dật uế người canh"
+    },{
+      "id":242,
+      "poem_vi":"Tà hạnh nhơ đàn bà,<br>Xan tham nhớp kẻ thí,<br>Ác pháp là vết nhơ,<br>Đời này và đời sau."
+    },{
+      "id":243,
+      "poem_vi":"Trong hàng cấu uế ấy,<br>Vô minh, nhơ tối thượng,<br>Đoạn nhơ ấy, tỷ kheo,<br>Thành bậc không uế nhiễm."
+    },{
+      "id":244,
+      "poem_vi":"Dễ thay, sống không hổ<br>Sống lỗ mãng như quạ,<br>Sống công kích huênh hoang,<br>Sống liều lĩnh, nhiễm ô."
+    },{
+      "id":245,
+      "poem_vi":"Khó thay, sống xấu hổ,<br>Thường thường cầu thanh tịnh.<br>Sống vô tư, khiêm tốn,<br>Trong sạch và sáng suốt."
+    },{
+      "id":246,
+      "poem_vi":"Ai ở đời sát sinh,<br>Nói láo không chân thật,<br>Ở đời lấy không cho,<br>Qua lại với vợ người."
+    },{
+      "id":247,
+      "poem_vi":"Uống rượu men, rượu nấu,<br>Người sống đam mê vậy,<br>Chính ngay tại đời này,<br>Tự đào bới gốc mình."
+    },{
+      "id":248,
+      "poem_vi":"Vậy người, hãy nên biết,<br>Không chế ngự là ác.<br>Chớ để tham phi pháp,<br>Làm người đau khổ dài."
+    },{
+      "id":249,
+      "poem_vi":"Do tín tâm, hỷ tâm<br>Loài người mới bố thí.<br>Ở đây ai bất mãn<br>Người khác được ăn uống,<br>Người ấy ngày hoặc đêm,<br>Không đạt được tâm định?"
+    },{
+      "id":250,
+      "poem_vi":"Ai cắt được, phá được,<br>Tận gốc nhổ tâm ấy.<br>Người ấy ngày hoặc đêm,<br>Đạt được tâm thiền định."
+    },{
+      "id":251,
+      "poem_vi":"Lửa nào bằng lửa tham!<br>Chấp nào bằng sân hận!<br>Lưới nào bằng lưới si!<br>Sông nào bằng sông ái!"
+    },{
+      "id":252,
+      "poem_vi":"Dễ thay thấy lỗi người,<br>Lỗi mình thấy mới khó.<br>Lỗi người ta phanh tìm,<br>Như sàng trấu trong gạo,<br>Còn lỗi mình, che đậy,<br>Như kẻ gian dấu bài."
+    },{
+      "id":253,
+      "poem_vi":"Ai thấy lỗi của người,<br>Thường sanh lòng chỉ trích,<br>Người ấy lậu hoặc tăng,<br>Rất xa lậu hoặc diệt."
+    },{
+      "id":254,
+      "poem_vi":"Hư không, không dấu chân,<br>Ngoài đây, không sa môn,<br>Chúng sanh thích hý luận,<br>Như lai, hý luận trừ."
+    },{
+      "id":255,
+      "poem_vi":"Hư không, không dấu chân,<br>Ngoài đây, không sa môn.<br>Các hành không thường trú,<br>Chư Phật không giao động."
+    }
+  ]
+
+}

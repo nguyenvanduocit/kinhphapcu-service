@@ -1,57 +1,63 @@
-[
-  {
-    "id":179,
-    "poem_vi":"Vị chiến thắng không bại,<br>Vị bước đi trên đời,<br>Không dấu tích chiến thắng,<br>Phật giới rộng mênh mông,<br>Ai dùng chân theo dõi<br>Bậc không để dấu tích?"
-  },{
-    "id":180,
-    "poem_vi":"Ai giải tỏa lưới tham,<br>Ái phược hết dắt dẫn,<br>Phật giới rộng mênh mông,<br>Ai dùng chân theo dõi,<br>Bậc không để dấu tích?"
-  },{
-    "id":181,
-    "poem_vi":"Người trí chuyên thiền định,<br>Thích an tịnh viễn ly,<br>Chư thiên đều ái kính,<br>Bậc chánh giác, chánh niệm."
-  },{
-    "id":182,
-    "poem_vi":"Khó thay, được làm người,<br>Khó thay, được sống còn,<br>Khó thay, nghe diệu pháp,<br>Khó thay, Phật ra đời!"
-  },{
-    "id":183,
-    "poem_vi":"Không làm mọi điều ác.<br>Thành tựu các hạnh lành,<br>Tâm ý giữ trong sạch,<br>Chính lời chư Phật dạy."
-  },{
-    "id":184,
-    "poem_vi":"Chư Phật thường giảng dạy;<br>Nhẫn, khổ hạnh tối thượng,<br>Niết bàn, quả tối thượng;<br>Xuất gia không phá người;<br>Sa môn không hại người."
-  },{
-    "id":185,
-    "poem_vi":"Không phỉ báng, phá hoại,<br>Hộ trì giới căn bản,<br>Ăn uống có tiết độ,<br>Sàng tọa chỗ nhàn tịnh<br>Chuyên chú tăng thượng tâm,<br>Chính lời chư Phật dạy."
-  },{
-    "id":186,
-    "poem_vi":"Dầu mưa bằng tiền vàng,<br>Các dục khó thỏa mãn.<br>Dục đắng nhiều ngọt ít,<br>Biết vậy là bậc trí."
-  },{
-    "id":187,
-    "poem_vi":"Đệ tử bậc chánh giác,<br>Không tìm cầu dục lạc,<br>Dầu là dục chư thiên,<br>Chỉ ưa thích ái diệt."
-  },{
-    "id":188,
-    "poem_vi":"Loài người sợ hoảng hốt,<br>Tìm nhiều chỗ quy y,<br>Hoặc rừng rậm, núi non,<br>Hoặc vườn cây, đền tháp."
-  },{
-    "id":189,
-    "poem_vi":"Quy y ấy không ổn,<br>Không quy y tối thượng.<br>Quy y các chỗ ấy,<br>Không thoát mọi khổ đau?"
-  },{
-    "id":190,
-    "poem_vi":"Ai quy y Đức Phật,<br>Chánh pháp và chư tăng,<br>Ai dùng chánh tri kiến,<br>Thấy được bốn Thánh đế."
-  },{
-    "id":191,
-    "poem_vi":"Thấy khổ và khổ tập,<br>Thấy sự khổ vượt qua,<br>Thấy đường Thánh tám ngành,<br>Đưa đến khổ não tận."
-  },{
-    "id":192,
-    "poem_vi":"Thật quy y an ổn,<br>Thật quy y tối thượng,<br>Có quy y như vậy,<br>Mới thoát mọi khổ đau."
-  },{
-    "id":193,
-    "poem_vi":"Khó gặp bậc thánh nhơn,<br>Không phải đâu cũng có.<br>Chỗ nào bậc trí sanh,<br>Gia đình tất an lạc."
-  },{
-    "id":194,
-    "poem_vi":"Vui thay, Phật ra đời!<br>Vui thay, Pháp được giảng!<br>Vui thay, Tăng hòa hợp!<br>Hòa hợp tu, vui thay!"
-  },{
-    "id":195,
-    "poem_vi":"Cúng dường bậc đáng cúng,<br>Chư Phật hoặc đệ tử,<br>Các bậc vượt hý luận,<br>Đoạn diệt mọi sầu bi."
-  },{
-    "id":196,
-    "poem_vi":"Cúng dường bậc như vậy,<br>Tịch tịnh, không sợ hãi,<br>Các công đức như vậy,<br>Không ai ước lường được."
-  }
-]
+{
+  "id": 14,
+  "name": "Phẩm Phật Đà",
+  "slug": "pham-phat-da",
+  "items":[
+    {
+      "id":179,
+      "poem_vi":"Vị chiến thắng không bại,<br>Vị bước đi trên đời,<br>Không dấu tích chiến thắng,<br>Phật giới rộng mênh mông,<br>Ai dùng chân theo dõi<br>Bậc không để dấu tích?"
+    },{
+      "id":180,
+      "poem_vi":"Ai giải tỏa lưới tham,<br>Ái phược hết dắt dẫn,<br>Phật giới rộng mênh mông,<br>Ai dùng chân theo dõi,<br>Bậc không để dấu tích?"
+    },{
+      "id":181,
+      "poem_vi":"Người trí chuyên thiền định,<br>Thích an tịnh viễn ly,<br>Chư thiên đều ái kính,<br>Bậc chánh giác, chánh niệm."
+    },{
+      "id":182,
+      "poem_vi":"Khó thay, được làm người,<br>Khó thay, được sống còn,<br>Khó thay, nghe diệu pháp,<br>Khó thay, Phật ra đời!"
+    },{
+      "id":183,
+      "poem_vi":"Không làm mọi điều ác.<br>Thành tựu các hạnh lành,<br>Tâm ý giữ trong sạch,<br>Chính lời chư Phật dạy."
+    },{
+      "id":184,
+      "poem_vi":"Chư Phật thường giảng dạy;<br>Nhẫn, khổ hạnh tối thượng,<br>Niết bàn, quả tối thượng;<br>Xuất gia không phá người;<br>Sa môn không hại người."
+    },{
+      "id":185,
+      "poem_vi":"Không phỉ báng, phá hoại,<br>Hộ trì giới căn bản,<br>Ăn uống có tiết độ,<br>Sàng tọa chỗ nhàn tịnh<br>Chuyên chú tăng thượng tâm,<br>Chính lời chư Phật dạy."
+    },{
+      "id":186,
+      "poem_vi":"Dầu mưa bằng tiền vàng,<br>Các dục khó thỏa mãn.<br>Dục đắng nhiều ngọt ít,<br>Biết vậy là bậc trí."
+    },{
+      "id":187,
+      "poem_vi":"Đệ tử bậc chánh giác,<br>Không tìm cầu dục lạc,<br>Dầu là dục chư thiên,<br>Chỉ ưa thích ái diệt."
+    },{
+      "id":188,
+      "poem_vi":"Loài người sợ hoảng hốt,<br>Tìm nhiều chỗ quy y,<br>Hoặc rừng rậm, núi non,<br>Hoặc vườn cây, đền tháp."
+    },{
+      "id":189,
+      "poem_vi":"Quy y ấy không ổn,<br>Không quy y tối thượng.<br>Quy y các chỗ ấy,<br>Không thoát mọi khổ đau?"
+    },{
+      "id":190,
+      "poem_vi":"Ai quy y Đức Phật,<br>Chánh pháp và chư tăng,<br>Ai dùng chánh tri kiến,<br>Thấy được bốn Thánh đế."
+    },{
+      "id":191,
+      "poem_vi":"Thấy khổ và khổ tập,<br>Thấy sự khổ vượt qua,<br>Thấy đường Thánh tám ngành,<br>Đưa đến khổ não tận."
+    },{
+      "id":192,
+      "poem_vi":"Thật quy y an ổn,<br>Thật quy y tối thượng,<br>Có quy y như vậy,<br>Mới thoát mọi khổ đau."
+    },{
+      "id":193,
+      "poem_vi":"Khó gặp bậc thánh nhơn,<br>Không phải đâu cũng có.<br>Chỗ nào bậc trí sanh,<br>Gia đình tất an lạc."
+    },{
+      "id":194,
+      "poem_vi":"Vui thay, Phật ra đời!<br>Vui thay, Pháp được giảng!<br>Vui thay, Tăng hòa hợp!<br>Hòa hợp tu, vui thay!"
+    },{
+      "id":195,
+      "poem_vi":"Cúng dường bậc đáng cúng,<br>Chư Phật hoặc đệ tử,<br>Các bậc vượt hý luận,<br>Đoạn diệt mọi sầu bi."
+    },{
+      "id":196,
+      "poem_vi":"Cúng dường bậc như vậy,<br>Tịch tịnh, không sợ hãi,<br>Các công đức như vậy,<br>Không ai ước lường được."
+    }
+  ]
+
+}

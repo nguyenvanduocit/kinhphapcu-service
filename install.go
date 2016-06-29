@@ -8,13 +8,8 @@ import (
 	"io/ioutil"
 	"flag"
 	"fmt"
-	"strings"
 )
 
-type Item struct{
-	Id int `json:"id"`
-	Poem_vi string `json:"poem_vi"`
-}
 
 func importChapter(fileName string, db *sql.DB){
 
@@ -23,22 +18,28 @@ func importChapter(fileName string, db *sql.DB){
 		panic(err.Error())
 	}
 	defer chapterFile.Close()
-	var items []Item
+	var chapter Chapter
 	jsonParser := json.NewDecoder(chapterFile)
-	err = jsonParser.Decode(&items);
+	err = jsonParser.Decode(&chapter);
 	if err != nil {
 		panic(err.Error())
 	}
 
-	chapterName := strings.Replace(fileName,".json","", -1)
-
-	stmtIns, err := db.Prepare("INSERT INTO `posts` (id, chapter_slug, poem_vi) VALUES( ?, ?, ? )") // ? = placeholder
+	insChapter, err := db.Prepare("INSERT INTO `chapters` (id, slug, name) VALUES( ?, ?, ? )") // ? = placeholder
 	if err != nil {
 		panic(err.Error())
 	}
-	for i := 0; i < len(items); i++ {
-		fmt.Println("Item:", items[i].Id)
-		_, err = stmtIns.Exec(items[i].Id,chapterName, items[i].Poem_vi)
+	_, err = insChapter.Exec(chapter.Id,chapter.Slug, chapter.Name)
+	if err != nil {
+		panic(err.Error())
+	}
+	insPost, err := db.Prepare("INSERT INTO `posts` (id, chapter_id, poem_vi) VALUES( ?, ?, ? )") // ? = placeholder
+	if err != nil {
+		panic(err.Error())
+	}
+	for i := 0; i < len(chapter.Items); i++ {
+		fmt.Println("Item:", chapter.Items[i].Id)
+		_, err = insPost.Exec(chapter.Items[i].Id,chapter.Id, chapter.Items[i].Poem_vi)
 		if err != nil {
 			panic(err.Error())
 		}
@@ -46,12 +47,16 @@ func importChapter(fileName string, db *sql.DB){
 }
 
 func createTable(db *sql.DB, name string,query string){
-	_, err := db.Exec("DROP TABLE IF EXISTS `"+ name + "`")
-	if err != nil {
+
+	if _, err := db.Exec("SET foreign_key_checks = 0"); err != nil {
 		panic(err.Error())
 	}
-	_, err = db.Exec(query)
-	if err != nil {
+
+	if _, err := db.Exec("DROP TABLE IF EXISTS `"+ name + "`"); err != nil {
+		panic(err.Error())
+	}
+
+	if _, err := db.Exec(query); err != nil {
 		panic(err.Error())
 	}
 	fmt.Println("Table " + name + " created")
@@ -72,7 +77,8 @@ func main() {
 		panic(err.Error()) // proper error handling instead of panic in your app
 	}
 
-	createTable(db, "posts", "CREATE TABLE `posts` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `chapter_slug` varchar(255) DEFAULT NULL, `poem_vi` text, PRIMARY KEY (`id`) ) ENGINE=InnoDB AUTO_INCREMENT=424 DEFAULT CHARSET=utf8;")
+	createTable(db, "chapters", "CREATE TABLE `chapters` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `name` varchar(255) DEFAULT NULL, `slug` varchar(255) DEFAULT NULL, PRIMARY KEY (`id`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;")
+	createTable(db, "posts", "CREATE TABLE `posts` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `chapter_id` int(11) unsigned, `poem_vi` text, PRIMARY KEY (`id`), FOREIGN KEY (chapter_id) REFERENCES chapters(id) ) ENGINE=InnoDB AUTO_INCREMENT=424 DEFAULT CHARSET=utf8;")
 
 	chapterFiles, _ := ioutil.ReadDir("./data")
 	for _, f := range chapterFiles {

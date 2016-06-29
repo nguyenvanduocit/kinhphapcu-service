@@ -1,92 +1,98 @@
-[
-  {
-    "id":1,
-    "poem_vi":"Ý dẫn đầu các pháp,<br>Ý làm chủ, ý tạo;<br>Nếu với ý ô nhiễm,<br>Nói lên hay hành động,<br>Khổ não bước theo sau,<br>Như xe, chân vật kéo"
-  },
-  {
-    "id":2,
-    "poem_vi":"Ý dẫn đầu các pháp,<br>Ý làm chủ, ý tạo,<br>Nếu với ý thanh tịnh,<br>Nói lên hay hành động,<br>An lạc bước theo sau,<br>Như bóng, không rời hình"
-  },
-  {
-    "id":3,
-    "poem_vi":"\"Nó mắng tôi, đánh tôi,<br>Nó thắng tôi, cướp tôi \"<br>Ai ôm hiềm hận ấy,<br>Hận thù không thể nguôi."
-  },
-  {
-    "id":4,
-    "poem_vi":"\"Nó mắng tôi, đánh tôi,<br>Nó thắng tôi, cướp tôi, \"<br>Không ôm hiềm hận ấy,<br>Hận thù được tự nguôi."
-  },
-  {
-    "id":5,
-    "poem_vi":"Với hận diệt hận thù,<br>Đời này không có được.<br>Không hận diệt hận thù,<br>Là định luật ngàn thu"
-  },
-  {
-    "id":6,
-    "poem_vi":"Người khác không hiểu biết,<br>Chúng ta đây bị hại.<br>Chỗ ấy, ai biết được<br>Tranh luận được lắng êm."
-  },
-  {
-    "id":7,
-    "poem_vi":"Ai sống <span  data-toggle'tooltip' data-original-title='Nhìn chằm chằm vào cơ thể người khác'>nhìn tịnh tướng,</span><br>không hộ trì các căn,<br>ăn uống thiếu tiết độ,<br>biếng nhác, chẳng tinh cần.<br>Ma uy hiếp kẻ ấy,<br>như cây yếu trước gió",
-    "youtube_id":"FPlAda5RSsA",
-    "reciprocal_id":8
-  },
-  {
-    "id":8,
-    "poem_vi":"Ai sống quán bất tịnh,<br>Khéo hộ trì các căn,<br>ăn uống có tiết độ,<br>có lòng tin, tinh cần,<br>Ma không uy hiếp được,<br>Như núi đá, trước gió",
-    "youtube_id":"FPlAda5RSsA",
-    "reciprocal_id":7
-  },
-  {
-    "id":9,
-    "poem_vi":"Ai mặc áo cà sa,<br>tâm chưa rời uế trược,<br>không tự chế, không thực,<br>không xứng áo cà sa",
-    "reciprocal_id":10
-  },
-  {
-    "id":10,
-    "poem_vi":"Ai rời bỏ uế trược,<br>giới luật khéo nghiêm trì,<br>tự chế, sống chơn thực,<br>thật xứng áo cà sa.",
-    "reciprocal_id":9
-  },
-  {
-    "id":11,
-    "poem_vi":"Không chân, tưởng chân thật,<br>Chân thật, thấy không chân<br>Họ không đạt chân thật<br>Do tà tư tà hạnh",
-    "youtube_id":"qRf7gd3OXVU",
-    "reciprocal_id":12
-  },
-  {
-    "id":12,
-    "poem_vi":"Chân thật, biết chân thật,<br>Không chân, biết không chân.<br>Chúng đạt được chân thật,<br>do chánh tư, chánh hạnh.",
-    "youtube_id":"qRf7gd3OXVU",
-    "reciprocal_id":11
-  },
-  {
-    "id":13,
-    "poem_vi":"Như ngôi nhà vụng lợp,<br>Mưa liền xâm nhập vào.<br>Cũng vậy tâm không tu,<br>Tham dục liền xâm nhập."
-  },
-  {
-    "id":14,
-    "poem_vi":"Như ngôi nhà khéo lợp,<br>Mưa không xâm nhập vào.<br>Cũng vậy tâm khéo tu,<br>Tham dục không xâm nhập."
-  },
-  {
-    "id":15,
-    "poem_vi":"Nay sầu, đời sau sầu,<br>Kẻ ác, hai đời sầu;<br>Nó sầu, nó ưu não,<br>Thấy nghiệp uế mình làm."
-  },
-  {
-    "id":16,
-    "poem_vi":"Nay vui, đời sau vui,<br>Làm phước, hai đời vui.<br>Người ấý vui, an vui,<br>Thấy nghiệp tịnh mình làm."
-  },
-  {
-    "id":17,
-    "poem_vi":"Nay than, đời sau than,<br>Kẻ ác, hai đời than,<br>than rằng: \"Ta làm ác \"<br>Đọa cõi dữ, than hơn."
-  },
-  {
-    "id":18,
-    "poem_vi":"Nay sướng, đời sau sướng,<br>Làm phước, hai đời sướng.<br>Mừng rằng: \"Ta làm thiện\",<br>Sanh cõi lành, sướng hơn."
-  },
-  {
-    "id":19,
-    "poem_vi":"Nếu người nói nhiều kinh,<br>Không hành trì, phóng dật;<br>Như kẻ chăn bò người,<br>Không phần Sa môn hạnh."
-  },
-  {
-    "id":20,
-    "poem_vi":"Dầu nói ít kinh điển,<br>Nhưng hành pháp, tùy pháp,<br>Từ bỏ tham, sân, si,<br>Tỉnh giác, tâm giải thoát,<br>Không chấp thủ hai đời,<br>Dự phần Sa môn hạnh"
-  }
-]
+{
+  "id": 1,
+  "name": "Phẩm Song Yếu",
+  "slug": "pham-song-yeu",
+  "items":[
+    {
+      "id":1,
+      "poem_vi":"Ý dẫn đầu các pháp,<br>Ý làm chủ, ý tạo;<br>Nếu với ý ô nhiễm,<br>Nói lên hay hành động,<br>Khổ não bước theo sau,<br>Như xe, chân vật kéo"
+    },
+    {
+      "id":2,
+      "poem_vi":"Ý dẫn đầu các pháp,<br>Ý làm chủ, ý tạo,<br>Nếu với ý thanh tịnh,<br>Nói lên hay hành động,<br>An lạc bước theo sau,<br>Như bóng, không rời hình"
+    },
+    {
+      "id":3,
+      "poem_vi":"\"Nó mắng tôi, đánh tôi,<br>Nó thắng tôi, cướp tôi \"<br>Ai ôm hiềm hận ấy,<br>Hận thù không thể nguôi."
+    },
+    {
+      "id":4,
+      "poem_vi":"\"Nó mắng tôi, đánh tôi,<br>Nó thắng tôi, cướp tôi, \"<br>Không ôm hiềm hận ấy,<br>Hận thù được tự nguôi."
+    },
+    {
+      "id":5,
+      "poem_vi":"Với hận diệt hận thù,<br>Đời này không có được.<br>Không hận diệt hận thù,<br>Là định luật ngàn thu"
+    },
+    {
+      "id":6,
+      "poem_vi":"Người khác không hiểu biết,<br>Chúng ta đây bị hại.<br>Chỗ ấy, ai biết được<br>Tranh luận được lắng êm."
+    },
+    {
+      "id":7,
+      "poem_vi":"Ai sống <span  data-toggle'tooltip' data-original-title='Nhìn chằm chằm vào cơ thể người khác'>nhìn tịnh tướng,</span><br>không hộ trì các căn,<br>ăn uống thiếu tiết độ,<br>biếng nhác, chẳng tinh cần.<br>Ma uy hiếp kẻ ấy,<br>như cây yếu trước gió",
+      "youtube_id":"FPlAda5RSsA",
+      "reciprocal_id":8
+    },
+    {
+      "id":8,
+      "poem_vi":"Ai sống quán bất tịnh,<br>Khéo hộ trì các căn,<br>ăn uống có tiết độ,<br>có lòng tin, tinh cần,<br>Ma không uy hiếp được,<br>Như núi đá, trước gió",
+      "youtube_id":"FPlAda5RSsA",
+      "reciprocal_id":7
+    },
+    {
+      "id":9,
+      "poem_vi":"Ai mặc áo cà sa,<br>tâm chưa rời uế trược,<br>không tự chế, không thực,<br>không xứng áo cà sa",
+      "reciprocal_id":10
+    },
+    {
+      "id":10,
+      "poem_vi":"Ai rời bỏ uế trược,<br>giới luật khéo nghiêm trì,<br>tự chế, sống chơn thực,<br>thật xứng áo cà sa.",
+      "reciprocal_id":9
+    },
+    {
+      "id":11,
+      "poem_vi":"Không chân, tưởng chân thật,<br>Chân thật, thấy không chân<br>Họ không đạt chân thật<br>Do tà tư tà hạnh",
+      "youtube_id":"qRf7gd3OXVU",
+      "reciprocal_id":12
+    },
+    {
+      "id":12,
+      "poem_vi":"Chân thật, biết chân thật,<br>Không chân, biết không chân.<br>Chúng đạt được chân thật,<br>do chánh tư, chánh hạnh.",
+      "youtube_id":"qRf7gd3OXVU",
+      "reciprocal_id":11
+    },
+    {
+      "id":13,
+      "poem_vi":"Như ngôi nhà vụng lợp,<br>Mưa liền xâm nhập vào.<br>Cũng vậy tâm không tu,<br>Tham dục liền xâm nhập."
+    },
+    {
+      "id":14,
+      "poem_vi":"Như ngôi nhà khéo lợp,<br>Mưa không xâm nhập vào.<br>Cũng vậy tâm khéo tu,<br>Tham dục không xâm nhập."
+    },
+    {
+      "id":15,
+      "poem_vi":"Nay sầu, đời sau sầu,<br>Kẻ ác, hai đời sầu;<br>Nó sầu, nó ưu não,<br>Thấy nghiệp uế mình làm."
+    },
+    {
+      "id":16,
+      "poem_vi":"Nay vui, đời sau vui,<br>Làm phước, hai đời vui.<br>Người ấý vui, an vui,<br>Thấy nghiệp tịnh mình làm."
+    },
+    {
+      "id":17,
+      "poem_vi":"Nay than, đời sau than,<br>Kẻ ác, hai đời than,<br>than rằng: \"Ta làm ác \"<br>Đọa cõi dữ, than hơn."
+    },
+    {
+      "id":18,
+      "poem_vi":"Nay sướng, đời sau sướng,<br>Làm phước, hai đời sướng.<br>Mừng rằng: \"Ta làm thiện\",<br>Sanh cõi lành, sướng hơn."
+    },
+    {
+      "id":19,
+      "poem_vi":"Nếu người nói nhiều kinh,<br>Không hành trì, phóng dật;<br>Như kẻ chăn bò người,<br>Không phần Sa môn hạnh."
+    },
+    {
+      "id":20,
+      "poem_vi":"Dầu nói ít kinh điển,<br>Nhưng hành pháp, tùy pháp,<br>Từ bỏ tham, sân, si,<br>Tỉnh giác, tâm giải thoát,<br>Không chấp thủ hai đời,<br>Dự phần Sa môn hạnh"
+    }
+  ]
+
+}

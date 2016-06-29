@@ -1,54 +1,60 @@
-[
-  {
-    "id":256,
-    "poem_vi":"Ngươi đâu phải pháp trụ,<br>Xử sự quá chuyên chế,<br>Bậc trí cần phân biệt<br>Cả hai chánh và tà!"
-  },{
-    "id":257,
-    "poem_vi":"Không chuyên chế, đúng pháp,<br>Công bằng, dắt dẫn người,<br>Bậc trí sống đúng pháp,<br>Thật xứng danh pháp trụ."
-  },{
-    "id":258,
-    "poem_vi":"Không phải vì nói nhiều,<br>Mới xứng danh bậc trí.<br>An ổn, không oán sợ.<br>Thật đáng gọi bậc trí."
-  },{
-    "id":259,
-    "poem_vi":"Không phải vì nói nhiều,<br>Mới xứng danh trì pháp,<br>Những ai tuy nghe ít,<br>Nhưng thân hành đúng pháp,<br>Không phóng túng chánh pháp,<br>Mới xứng danh trì pháp."
-  },{
-    "id":260,
-    "poem_vi":"Không phải là trưởng lão,<br>Dầu cho có bạc đầu.<br>Người chỉ tuổi tác cao,<br>Được gọi là: \"Lão ngu.\""
-  },{
-    "id":261,
-    "poem_vi":"Ai chân thật, đúng pháp,<br>Không hại, biết chế phục,<br>Bậc trí không cấu uế,<br>Mới xứng danh Trưởng Lão."
-  },{
-    "id":262,
-    "poem_vi":"Không phải nói lưu loát,<br>Không phải sắc mặt đẹp,<br>Thành được người lương thiện,<br>Nếu ganh, tham, dối trá."
-  },{
-    "id":263,
-    "poem_vi":"Ai cắt được, phá được<br>Tận gốc nhổ tâm ấy<br>Người trí ấy diệt sân,<br>Được gọi người hiền thiện."
-  },{
-    "id":264,
-    "poem_vi":"Đầu trọc, không sa môn<br>Nếu phóng túng, nói láo.<br>Ai còn đầy dục tham,<br>Sao được gọi sa môn?"
-  },{
-    "id":265,
-    "poem_vi":"Ai lắng dịu hoàn toàn,<br>Các điều ác lớn nhỏ,<br>Vì lắng dịu ác pháp,<br>Được gọi là Sa môn."
-  },{
-    "id":266,
-    "poem_vi":"Chỉ khất thực nhờ người,<br>Đâu phải là tỷ kheo!<br>Phải theo pháp toàn diện,<br>Khất sĩ không, không đủ."
-  },{
-    "id":267,
-    "poem_vi":"Ai vượt qua thiện ác,<br>Chuyên sống đời Phạm Hạnh,<br>Sống thẩm sát ở đời,<br>Mới xứng danh tỷ kheo."
-  },{
-    "id":268,
-    "poem_vi":"Im lặng nhưng ngu si,<br>Đâu được gọi ẩn sĩ?<br>Như người cầm cán cân,<br>Bậc trí chọn điều lành."
-  },{
-    "id":269,
-    "poem_vi":"Từ bỏ các ác pháp,<br>Mới thật là ẩn sĩ.<br>Ai thật hiểu hai đời<br>Mới được gọi ẩn sĩ."
-  },{
-    "id":270,
-    "poem_vi":"Còn sát hại sinh linh,<br>Đâu được gọi Hiền thánh.<br>Không hại mọi hữu tình,<br>Mới được gọi Hiền Thánh."
-  },{
-    "id":271,
-    "poem_vi":"Chẳng phải chỉ giới cấm<br>Cũng không phải học nhiều,<br>Chẳng phải chứng thiền định,<br>Sống thanh vắng một mình."
-  },{
-    "id":272,
-    "poem_vi":"Ta hưởng an ổn lạc,<br>Phàm phu chưa hưởng được.<br>Tỷ kheo, chớ tự tin<br>Khi lậu hoặc chưa diệt."
-  }
-]
+{
+  "id": 19,
+  "name": "Phẩm Pháp Trụ",
+  "slug": "pham-phap-tru",
+  "items":[
+    {
+      "id":256,
+      "poem_vi":"Ngươi đâu phải pháp trụ,<br>Xử sự quá chuyên chế,<br>Bậc trí cần phân biệt<br>Cả hai chánh và tà!"
+    },{
+      "id":257,
+      "poem_vi":"Không chuyên chế, đúng pháp,<br>Công bằng, dắt dẫn người,<br>Bậc trí sống đúng pháp,<br>Thật xứng danh pháp trụ."
+    },{
+      "id":258,
+      "poem_vi":"Không phải vì nói nhiều,<br>Mới xứng danh bậc trí.<br>An ổn, không oán sợ.<br>Thật đáng gọi bậc trí."
+    },{
+      "id":259,
+      "poem_vi":"Không phải vì nói nhiều,<br>Mới xứng danh trì pháp,<br>Những ai tuy nghe ít,<br>Nhưng thân hành đúng pháp,<br>Không phóng túng chánh pháp,<br>Mới xứng danh trì pháp."
+    },{
+      "id":260,
+      "poem_vi":"Không phải là trưởng lão,<br>Dầu cho có bạc đầu.<br>Người chỉ tuổi tác cao,<br>Được gọi là: \"Lão ngu.\""
+    },{
+      "id":261,
+      "poem_vi":"Ai chân thật, đúng pháp,<br>Không hại, biết chế phục,<br>Bậc trí không cấu uế,<br>Mới xứng danh Trưởng Lão."
+    },{
+      "id":262,
+      "poem_vi":"Không phải nói lưu loát,<br>Không phải sắc mặt đẹp,<br>Thành được người lương thiện,<br>Nếu ganh, tham, dối trá."
+    },{
+      "id":263,
+      "poem_vi":"Ai cắt được, phá được<br>Tận gốc nhổ tâm ấy<br>Người trí ấy diệt sân,<br>Được gọi người hiền thiện."
+    },{
+      "id":264,
+      "poem_vi":"Đầu trọc, không sa môn<br>Nếu phóng túng, nói láo.<br>Ai còn đầy dục tham,<br>Sao được gọi sa môn?"
+    },{
+      "id":265,
+      "poem_vi":"Ai lắng dịu hoàn toàn,<br>Các điều ác lớn nhỏ,<br>Vì lắng dịu ác pháp,<br>Được gọi là Sa môn."
+    },{
+      "id":266,
+      "poem_vi":"Chỉ khất thực nhờ người,<br>Đâu phải là tỷ kheo!<br>Phải theo pháp toàn diện,<br>Khất sĩ không, không đủ."
+    },{
+      "id":267,
+      "poem_vi":"Ai vượt qua thiện ác,<br>Chuyên sống đời Phạm Hạnh,<br>Sống thẩm sát ở đời,<br>Mới xứng danh tỷ kheo."
+    },{
+      "id":268,
+      "poem_vi":"Im lặng nhưng ngu si,<br>Đâu được gọi ẩn sĩ?<br>Như người cầm cán cân,<br>Bậc trí chọn điều lành."
+    },{
+      "id":269,
+      "poem_vi":"Từ bỏ các ác pháp,<br>Mới thật là ẩn sĩ.<br>Ai thật hiểu hai đời<br>Mới được gọi ẩn sĩ."
+    },{
+      "id":270,
+      "poem_vi":"Còn sát hại sinh linh,<br>Đâu được gọi Hiền thánh.<br>Không hại mọi hữu tình,<br>Mới được gọi Hiền Thánh."
+    },{
+      "id":271,
+      "poem_vi":"Chẳng phải chỉ giới cấm<br>Cũng không phải học nhiều,<br>Chẳng phải chứng thiền định,<br>Sống thanh vắng một mình."
+    },{
+      "id":272,
+      "poem_vi":"Ta hưởng an ổn lạc,<br>Phàm phu chưa hưởng được.<br>Tỷ kheo, chớ tự tin<br>Khi lậu hoặc chưa diệt."
+    }
+  ]
+
+}

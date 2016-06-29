@@ -15,17 +15,23 @@ import (
 	"strconv"
 )
 
-type Post struct {
+type Item struct {
 	Id int `json:"id"`
-	ChapterSlug string `json:"chapter_slug"`
 	PoemVi string `json:"poem_vi"`
+}
+
+type Chapter struct{
+	Id int `json:"id"`
+	Slug string `json:"slug"`
+	Name string `json:"Name"`
+	Items []*Item `json:"items"`
 }
 
 type Response struct{
 	Success bool `json:"success"`
 	Message string `json:"message"`
 	Count int `json:"count"`
-	Posts []*Post `json:"posts"`
+	Result interface{} `json:"result"`
 }
 
 type Server struct{
@@ -56,12 +62,18 @@ func (sv *Server)Listing(){
 	fmt.Println("Server is listen on ", address);
 	router := mux.NewRouter().StrictSlash(true)
 
-	router.HandleFunc("/api/v1/post", sv.GetPost)
+	router.HandleFunc("/api/v1/posts", sv.GetPost)
 	router.HandleFunc("/api/v1/post/{id:[0-9]+}", sv.GetPost)
+
+	router.HandleFunc("/api/v1/chapters", sv.GetChapter)
 
 	router.HandleFunc("/", sv.Index)
 	router.PathPrefix("/static/").Handler(http.StripPrefix("/static/", http.FileServer(http.Dir("view/static"))))
 	log.Fatal(http.ListenAndServe(address, router))
+}
+
+func (sv *Server)Stop(){
+	sv.db.Close()
 }
 
 func (sv *Server)Index(w http.ResponseWriter, r *http.Request){
@@ -77,15 +89,37 @@ func (sv *Server)Index(w http.ResponseWriter, r *http.Request){
 
 }
 
-func (sv *Server)Stop(){
-	sv.db.Close()
+
+func (sv *Server)getChapters()([]*Chapter, error){
+	statement, err := sv.db.Prepare("SELECT id, slug, name FROM `chapters`")
+	if err != nil {
+		return nil, err
+	}
+	defer statement.Close()
+
+	rows, err := statement.Query()
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var chapters []*Chapter
+	for rows.Next() {
+		var chapter Chapter;
+		if err := rows.Scan(&chapter.Id,&chapter.Slug, &chapter.Name); err != nil {
+			return nil, err
+		}
+		chapters = append(chapters, &chapter);
+	}
+	return chapters, nil
+
 }
 
-func (sv *Server)getPosts(limit int, chapter string, random bool)([]*Post, error){
+func (sv *Server)getPosts(limit int, chapter int, random bool)([]*Item, error){
 	extrasQuery := " "
 	var queryArgs []interface{}
-	if(chapter != ""){
-		extrasQuery += " WHERE `posts`.`chapter_slug` = ?"
+	if(chapter > 0){
+		extrasQuery += " WHERE `posts`.`chapter_id` = ?"
 		queryArgs = append(queryArgs, chapter)
 	}
 	if(random){
@@ -95,7 +129,7 @@ func (sv *Server)getPosts(limit int, chapter string, random bool)([]*Post, error
 		extrasQuery += " LIMIT ?"
 		queryArgs = append(queryArgs, limit)
 	}
-	statement, err := sv.db.Prepare("SELECT id, chapter_slug, poem_vi FROM `posts` " + extrasQuery)
+	statement, err := sv.db.Prepare("SELECT id, poem_vi FROM `posts` " + extrasQuery)
 	if err != nil {
 		return nil, err
 	}
@@ -107,11 +141,10 @@ func (sv *Server)getPosts(limit int, chapter string, random bool)([]*Post, error
 	}
 	defer rows.Close()
 
-	var posts []*Post
+	var posts []*Item
 	for rows.Next() {
-		var post Post;
-		err = rows.Scan(&post.Id, &post.ChapterSlug,&post.PoemVi)
-		fmt.Println(post.Id)
+		var post Item;
+		err = rows.Scan(&post.Id,&post.PoemVi)
 		if err != nil {
 			return nil, err
 		}
@@ -127,22 +160,41 @@ func (sv *Server)GetPost(w http.ResponseWriter, r *http.Request) {
 		Message:"Unknown error!",
 	}
 	count, _ := strconv.Atoi(r.FormValue("count"))
-	chapter:= r.FormValue("chapter")
+	chapter, _ := strconv.Atoi(r.FormValue("chapter"))
 	random:= r.FormValue("random") == "true"
 	posts, err := sv.getPosts(count, chapter, random)
 	if (err != nil) {
 		response.Message = err.Error()
+	}else{
+		response.Message= "Success"
+		response.Success = true
+		response.Result = posts
+		response.Count = len(posts)
 	}
-	response.Message= "Success"
-	response.Success = true
-	response.Posts = posts
-	response.Count = len(posts)
+	sv.SendResponse(w, r, response)
+	return
+}
+
+func (sv *Server)GetChapter(w http.ResponseWriter, r *http.Request){
+	response := &Response{
+		Success:false,
+		Message:"Unknown error!",
+	}
+	chapters, err := sv.getChapters()
+	if (err != nil) {
+		response.Message = err.Error()
+	}else{
+		response.Message= "Success"
+		response.Success = true
+		response.Result = chapters
+		response.Count = len(chapters)
+	}
 	sv.SendResponse(w, r, response)
 	return
 }
 
 func (sv *Server)SendResponse(w http.ResponseWriter, r *http.Request, response *Response) {
-	w.Header().Add("Content-Type", "application/json")
+	w.Header().Add("Content-Type", "application/json; charset=utf-8")
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	json.NewEncoder(w).Encode(response)
 	return

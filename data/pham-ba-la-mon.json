@@ -1,126 +1,132 @@
-[
-  {
-    "id":383,
-    "poem_vi":"Hỡi này Bà là môn,<br>Hãy tinh tấn đoạn dòng,<br>Từ bỏ các dục lạc,<br>Biết được hành đoạn diệt,<br>Người là bậc vô vi."
-  },{
-    "id":384,
-    "poem_vi":"Nhờ thường trú hai pháp<br>Đến được bờ bên kia.<br>Bà-la-môn có trí,<br>Mọi kiết sử dứt sạch."
-  },{
-    "id":385,
-    "poem_vi":"Không bờ này, bờ kia<br>Cả hai bờ không có,<br>Lìa khổ, không trói buộc<br>Ta gọi Bà-la-môn."
-  },{
-    "id":386,
-    "poem_vi":"Tu thiền, trú ly trần<br>Phận sự xong, vô lậu,<br>Đạt được đích tối thượng,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":387,
-    "poem_vi":"Mặt trời sáng ban ngày,<br>Mặt trăng sáng ban đêm.<br>Khí giới sáng Sát lỵ,<br>Thiền định sáng Phạm chí.<br>Còn hào quang đức Phật,<br>Chói sáng cả ngày đêm."
-  },{
-    "id":388,
-    "poem_vi":"Dứt ác gọi Phạm chí,<br>Tịnh hạnh gọi Sa môn,<br>Tự mình xuất cấu uế,<br>Nên gọi bậc xuất gia."
-  },{
-    "id":389,
-    "poem_vi":"Chớ có đập Phạm chí!<br>Phạm chí chớ đập lại!<br>Xấu thay đập Phạm chí<br>Đập trả lại xấu hơn!"
-  },{
-    "id":390,
-    "poem_vi":"Đối vị Bà-la-môn,<br>Đây không lợi ích nhỏ.<br>Khi ý không ái luyến,<br>Tâm hại được chận đứng,<br>Chỉ khi ấy khổ diệt,"
-  },{
-    "id":391,
-    "poem_vi":"Với người thân miệng ý,<br>Không làm các ác hạnh<br>Ba nghiệp được phòng hộ,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":392,
-    "poem_vi":"Từ ai, biết chánh pháp<br>Bậc Chánh Giác thuyết giảng,<br>Hãy kính lễ vị ấy,<br>Như phạm chí chờ lửa."
-  },{
-    "id":393,
-    "poem_vi":"Được gọi Bà-la-môn,<br>Không vì đầu bện tóc,<br>Không chủng tộc, thọ sanh,<br>Ai thật chân, chánh, tịnh,<br>Mới gọi Bà-la-môn."
-  },{
-    "id":394,
-    "poem_vi":"Kẻ ngu, có ích gì<br>Bện tóc với da dê,<br>Nội tâm toàn phiền não,<br>Ngoài mặt đánh bóng suông."
-  },{
-    "id":395,
-    "poem_vi":"Người mặc áo đống rác,<br>Gầy ốm, lộ mạch gân,<br>Độc thân thiền trong rừng.<br>Ta gọi Bà-la-môn."
-  },{
-    "id":396,
-    "poem_vi":"Ta không gọi Phạm Chí,<br>Vì chỗ sanh, mẹ sanh.<br>Chỉ được gọi tên suông<br>Nếu tâm còn phiền não.<br>Không phiền não, chấp trước<br>Ta gọi Bà-la-môn."
-  },{
-    "id":397,
-    "poem_vi":"Đoạn hết các kiết sử,<br>Không còn gì lo sợ<br>Không đắm trước buộc ràng<br>Ta gọi Bà-la-môn"
-  },{
-    "id":398,
-    "poem_vi":"Bỏ đai da, bỏ cương<br>Bỏ dây, đồ sở thuộc,<br>Bỏ then chốt, sáng suốt,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":399,
-    "poem_vi":"Không ác ý, nhẫn chịu,<br>Phỉ báng, đánh, phạt hình,<br>Lấy nhẫn làm quân lực,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":400,
-    "poem_vi":"Không hận, hết bổn phận,<br>Trì giới, không tham ái,<br>Nhiếp phục, thân cuối cùng,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":401,
-    "poem_vi":"Như nước trên lá sen,<br>Như hột cải đầu kim,<br>Người không nhiễm ái dục,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":402,
-    "poem_vi":"Ai tự trên đời này,<br>Giác khổ, diệt trừ khổ,<br>Bỏ gánh nặng, giải thoát,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":403,
-    "poem_vi":"Người trí tuệ sâu xa,<br>Khéo biết đạo, phi đạo<br>Chứng đạt đích vô thượng,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":404,
-    "poem_vi":"Không liên hệ cả hai,<br>Xuất gia và thế tục,<br>Sống độc thân, ít dục,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":405,
-    "poem_vi":"Bỏ trượng, đối chúng sanh,<br>Yếu kém hay kiên cường,<br>Không giết, không bảo giết,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":406,
-    "poem_vi":"Thân thiện giữa thù địch<br>Ôn hòa giữa hung hăng.<br>Không nhiễm, giữa nhiễm trước,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":407,
-    "poem_vi":"Người bỏ rơi tham sân,<br>Không mạn không ganh tị,<br>Như hột cải đầu kim,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":408,
-    "poem_vi":"Nói lên lời ôn hòa,<br>Lợi ích và chân thật,<br>Không mất lòng một ai,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":409,
-    "poem_vi":"Ở đời, vật dài, ngắn,<br>Nhỏ, lớn, đẹp hay xấu<br>Phàm không cho không lấy,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":410,
-    "poem_vi":"Người không có hy cầu,<br>Đời này và đời sau,<br>Không hy cầu, giải thoát,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":411,
-    "poem_vi":"Người không còn tham ái,<br>Có trí, không nghi hoặc,<br>Thể nhập vào bất tử,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":412,
-    "poem_vi":"Người sống ở đời này<br>Không nhiễm cả thiện ác,<br>Không sầu, sạch không bụi<br>Ta gọi Bà-la-môn."
-  },{
-    "id":413,
-    "poem_vi":"Như trăng, sạch không uế<br>Sáng trong và tịnh lặng,<br>Hữu ái, được đoạn tận,<br>Ta gọi Bà là môn."
-  },{
-    "id":414,
-    "poem_vi":"Vượt đường nguy hiểm này,<br>Nhiếp phục luân hồi, si,<br>Đến bờ kia thiền định<br>Không dục ái, không nghi,<br>Không chấp trước, tịch tịnh,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":415,
-    "poem_vi":"Ai ở đời, đoạn dục,<br>Bỏ nhà, sống xuất gia,<br>Dục hữu được đoạn tận,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":416,
-    "poem_vi":"Ai ở đời đoạn ái<br>Bỏ nhà, sống xuất gia,<br>Ái hữu được đoạn tận,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":417,
-    "poem_vi":"Bỏ trói buộc loài người,<br>Vượt trói buộc cõi trời.<br>Giải thoát mọi buộc ràng,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":418,
-    "poem_vi":"Bỏ điều ưa, điều ghét,<br>Mát lạnh, diệt sanh y<br>Bậc anh hùng chiến thắng,<br>Nhiếp phục mọi thế giới,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":419,
-    "poem_vi":"Ai hiểu rõ hoàn toàn<br>Sanh tử các chúng sanh,<br>Không nhiễm, khéo vượt qua,<br>Sáng suốt chân giác ngộ,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":420,
-    "poem_vi":"Với ai, loài trời, người<br>Cùng với Càn thát bà,<br>Không biết chỗ thọ sanh<br>Lậu tận bậc La hán.<br>Ta gọi Bà-la-môn."
-  },{
-    "id":421,
-    "poem_vi":"Ai quá, hiện, vị lai<br>Không một sở hữu gì,<br>Không sở hữu không nắm,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":422,
-    "poem_vi":"Bậc trâu chúa, thù thắng<br>Bậc anh hùng, đại sĩ,<br>Bậc chiến thắng, không nhiễm,<br>Bậc tẩy sạch, giác ngộ,<br>Ta gọi Bà-la-môn."
-  },{
-    "id":423,
-    "poem_vi":"Ai biết được đời trước,<br>Thấy thiên giới, đọa xứ,<br>Đạt được sanh diệt tận<br>Thắng trí, tự viên thành<br>Bậc mâu ni đạo sĩ.<br>Viên mãn mọi thành tựu<br>Ta gọi Bà-la-môn."
-  }
-]
+{
+  "id": 26,
+  "name": "Phẩm Bà La Môn",
+  "slug": "pham-ba-la-mon",
+  "items":[
+    {
+      "id":383,
+      "poem_vi":"Hỡi này Bà là môn,<br>Hãy tinh tấn đoạn dòng,<br>Từ bỏ các dục lạc,<br>Biết được hành đoạn diệt,<br>Người là bậc vô vi."
+    },{
+      "id":384,
+      "poem_vi":"Nhờ thường trú hai pháp<br>Đến được bờ bên kia.<br>Bà-la-môn có trí,<br>Mọi kiết sử dứt sạch."
+    },{
+      "id":385,
+      "poem_vi":"Không bờ này, bờ kia<br>Cả hai bờ không có,<br>Lìa khổ, không trói buộc<br>Ta gọi Bà-la-môn."
+    },{
+      "id":386,
+      "poem_vi":"Tu thiền, trú ly trần<br>Phận sự xong, vô lậu,<br>Đạt được đích tối thượng,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":387,
+      "poem_vi":"Mặt trời sáng ban ngày,<br>Mặt trăng sáng ban đêm.<br>Khí giới sáng Sát lỵ,<br>Thiền định sáng Phạm chí.<br>Còn hào quang đức Phật,<br>Chói sáng cả ngày đêm."
+    },{
+      "id":388,
+      "poem_vi":"Dứt ác gọi Phạm chí,<br>Tịnh hạnh gọi Sa môn,<br>Tự mình xuất cấu uế,<br>Nên gọi bậc xuất gia."
+    },{
+      "id":389,
+      "poem_vi":"Chớ có đập Phạm chí!<br>Phạm chí chớ đập lại!<br>Xấu thay đập Phạm chí<br>Đập trả lại xấu hơn!"
+    },{
+      "id":390,
+      "poem_vi":"Đối vị Bà-la-môn,<br>Đây không lợi ích nhỏ.<br>Khi ý không ái luyến,<br>Tâm hại được chận đứng,<br>Chỉ khi ấy khổ diệt,"
+    },{
+      "id":391,
+      "poem_vi":"Với người thân miệng ý,<br>Không làm các ác hạnh<br>Ba nghiệp được phòng hộ,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":392,
+      "poem_vi":"Từ ai, biết chánh pháp<br>Bậc Chánh Giác thuyết giảng,<br>Hãy kính lễ vị ấy,<br>Như phạm chí chờ lửa."
+    },{
+      "id":393,
+      "poem_vi":"Được gọi Bà-la-môn,<br>Không vì đầu bện tóc,<br>Không chủng tộc, thọ sanh,<br>Ai thật chân, chánh, tịnh,<br>Mới gọi Bà-la-môn."
+    },{
+      "id":394,
+      "poem_vi":"Kẻ ngu, có ích gì<br>Bện tóc với da dê,<br>Nội tâm toàn phiền não,<br>Ngoài mặt đánh bóng suông."
+    },{
+      "id":395,
+      "poem_vi":"Người mặc áo đống rác,<br>Gầy ốm, lộ mạch gân,<br>Độc thân thiền trong rừng.<br>Ta gọi Bà-la-môn."
+    },{
+      "id":396,
+      "poem_vi":"Ta không gọi Phạm Chí,<br>Vì chỗ sanh, mẹ sanh.<br>Chỉ được gọi tên suông<br>Nếu tâm còn phiền não.<br>Không phiền não, chấp trước<br>Ta gọi Bà-la-môn."
+    },{
+      "id":397,
+      "poem_vi":"Đoạn hết các kiết sử,<br>Không còn gì lo sợ<br>Không đắm trước buộc ràng<br>Ta gọi Bà-la-môn"
+    },{
+      "id":398,
+      "poem_vi":"Bỏ đai da, bỏ cương<br>Bỏ dây, đồ sở thuộc,<br>Bỏ then chốt, sáng suốt,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":399,
+      "poem_vi":"Không ác ý, nhẫn chịu,<br>Phỉ báng, đánh, phạt hình,<br>Lấy nhẫn làm quân lực,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":400,
+      "poem_vi":"Không hận, hết bổn phận,<br>Trì giới, không tham ái,<br>Nhiếp phục, thân cuối cùng,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":401,
+      "poem_vi":"Như nước trên lá sen,<br>Như hột cải đầu kim,<br>Người không nhiễm ái dục,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":402,
+      "poem_vi":"Ai tự trên đời này,<br>Giác khổ, diệt trừ khổ,<br>Bỏ gánh nặng, giải thoát,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":403,
+      "poem_vi":"Người trí tuệ sâu xa,<br>Khéo biết đạo, phi đạo<br>Chứng đạt đích vô thượng,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":404,
+      "poem_vi":"Không liên hệ cả hai,<br>Xuất gia và thế tục,<br>Sống độc thân, ít dục,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":405,
+      "poem_vi":"Bỏ trượng, đối chúng sanh,<br>Yếu kém hay kiên cường,<br>Không giết, không bảo giết,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":406,
+      "poem_vi":"Thân thiện giữa thù địch<br>Ôn hòa giữa hung hăng.<br>Không nhiễm, giữa nhiễm trước,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":407,
+      "poem_vi":"Người bỏ rơi tham sân,<br>Không mạn không ganh tị,<br>Như hột cải đầu kim,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":408,
+      "poem_vi":"Nói lên lời ôn hòa,<br>Lợi ích và chân thật,<br>Không mất lòng một ai,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":409,
+      "poem_vi":"Ở đời, vật dài, ngắn,<br>Nhỏ, lớn, đẹp hay xấu<br>Phàm không cho không lấy,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":410,
+      "poem_vi":"Người không có hy cầu,<br>Đời này và đời sau,<br>Không hy cầu, giải thoát,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":411,
+      "poem_vi":"Người không còn tham ái,<br>Có trí, không nghi hoặc,<br>Thể nhập vào bất tử,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":412,
+      "poem_vi":"Người sống ở đời này<br>Không nhiễm cả thiện ác,<br>Không sầu, sạch không bụi<br>Ta gọi Bà-la-môn."
+    },{
+      "id":413,
+      "poem_vi":"Như trăng, sạch không uế<br>Sáng trong và tịnh lặng,<br>Hữu ái, được đoạn tận,<br>Ta gọi Bà là môn."
+    },{
+      "id":414,
+      "poem_vi":"Vượt đường nguy hiểm này,<br>Nhiếp phục luân hồi, si,<br>Đến bờ kia thiền định<br>Không dục ái, không nghi,<br>Không chấp trước, tịch tịnh,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":415,
+      "poem_vi":"Ai ở đời, đoạn dục,<br>Bỏ nhà, sống xuất gia,<br>Dục hữu được đoạn tận,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":416,
+      "poem_vi":"Ai ở đời đoạn ái<br>Bỏ nhà, sống xuất gia,<br>Ái hữu được đoạn tận,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":417,
+      "poem_vi":"Bỏ trói buộc loài người,<br>Vượt trói buộc cõi trời.<br>Giải thoát mọi buộc ràng,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":418,
+      "poem_vi":"Bỏ điều ưa, điều ghét,<br>Mát lạnh, diệt sanh y<br>Bậc anh hùng chiến thắng,<br>Nhiếp phục mọi thế giới,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":419,
+      "poem_vi":"Ai hiểu rõ hoàn toàn<br>Sanh tử các chúng sanh,<br>Không nhiễm, khéo vượt qua,<br>Sáng suốt chân giác ngộ,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":420,
+      "poem_vi":"Với ai, loài trời, người<br>Cùng với Càn thát bà,<br>Không biết chỗ thọ sanh<br>Lậu tận bậc La hán.<br>Ta gọi Bà-la-môn."
+    },{
+      "id":421,
+      "poem_vi":"Ai quá, hiện, vị lai<br>Không một sở hữu gì,<br>Không sở hữu không nắm,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":422,
+      "poem_vi":"Bậc trâu chúa, thù thắng<br>Bậc anh hùng, đại sĩ,<br>Bậc chiến thắng, không nhiễm,<br>Bậc tẩy sạch, giác ngộ,<br>Ta gọi Bà-la-môn."
+    },{
+      "id":423,
+      "poem_vi":"Ai biết được đời trước,<br>Thấy thiên giới, đọa xứ,<br>Đạt được sanh diệt tận<br>Thắng trí, tự viên thành<br>Bậc mâu ni đạo sĩ.<br>Viên mãn mọi thành tựu<br>Ta gọi Bà-la-môn."
+    }
+  ]
+
+}
