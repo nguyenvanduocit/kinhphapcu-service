@@ -199,6 +199,7 @@ func (sv *Server)GetChapter(w http.ResponseWriter, r *http.Request){
 func (sv *Server)SendResponse(w http.ResponseWriter, r *http.Request, response *Response) {
 	w.Header().Add("Content-Type", "application/json; charset=utf-8")
 	w.Header().Add("Access-Control-Allow-Origin", "*")
+	w.Header().Add("Cache-Control", "private; max-age=86400")
 	json.NewEncoder(w).Encode(response)
 	return
 }
