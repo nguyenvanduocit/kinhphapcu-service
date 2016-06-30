@@ -8,6 +8,7 @@ import (
 	"flag"
 	"fmt"
 	"database/sql"
+	"github.com/NYTimes/gziphandler"
 )
 import (
 	_ "github.com/go-sql-driver/mysql"
@@ -70,7 +71,8 @@ func (sv *Server)Listing(){
 
 	router.HandleFunc("/", sv.Index)
 	router.PathPrefix("/static/").Handler(http.StripPrefix("/static/", http.FileServer(http.Dir("view/static"))))
-	log.Fatal(http.ListenAndServe(address, router))
+	gzipWrapper := gziphandler.GzipHandler(router)
+	log.Fatal(http.ListenAndServe(address, gzipWrapper))
 }
 
 func (sv *Server)Stop(){
