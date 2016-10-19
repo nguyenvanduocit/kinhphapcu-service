@@ -6,8 +6,8 @@ import (
 	"os"
 	"encoding/json"
 	"io/ioutil"
-	"flag"
 	"fmt"
+	"github.com/joho/godotenv"
 )
 
 type Item struct {
@@ -75,10 +75,11 @@ func createTable(db *sql.DB, name string,query string){
 }
 
 func main() {
-	var dbScheme string
-	flag.StringVar(&dbScheme, "db-scheme", "root:7facd974e4b@/sotaycuame", "Database scheme format username:password@/database_name")
-	flag.Parse()
-
+	err := godotenv.Load(".env")
+	if err != nil {
+		panic(err.Error())
+	}
+	dbScheme := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", os.Getenv("DATABASE_USERNAME"), os.Getenv("DATABASE_PASSWORD"), os.Getenv("DATABASE_HOST"), os.Getenv("DATABASE_PORT"), os.Getenv("DATABASE_NAME"))
 	db, err := sql.Open("mysql", dbScheme)
 	if err != nil {
 		panic(err.Error()) // Just for example purpose. You should use proper error handling instead of panic
@@ -90,7 +91,7 @@ func main() {
 	}
 
 	createTable(db, "chapters", "CREATE TABLE `chapters` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `name` varchar(255) DEFAULT NULL, `slug` varchar(255) DEFAULT NULL, PRIMARY KEY (`id`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;")
-	createTable(db, "posts", "CREATE TABLE `posts` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `chapter_id` int(11) unsigned, `poem_vi` text, PRIMARY KEY (`id`), FOREIGN KEY (chapter_id) REFERENCES chapters(id) ) ENGINE=InnoDB AUTO_INCREMENT=424 DEFAULT CHARSET=utf8;")
+	createTable(db, "posts", "CREATE TABLE `posts` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `site_id` int(11) unsigned DEFAULT NULL, `title` text, `url` varchar(255) DEFAULT NULL, `order` varchar(255) DEFAULT '0', PRIMARY KEY (`id`), KEY `site_id` (`site_id`), CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`site_id`) REFERENCES `sites` (`id`) ) ENGINE=InnoDB AUTO_INCREMENT=236 DEFAULT CHARSET=utf8;")
 
 	chapterFiles, _ := ioutil.ReadDir("./data")
 	for _, f := range chapterFiles {
