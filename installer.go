@@ -91,7 +91,7 @@ func main() {
 	}
 
 	createTable(db, "chapters", "CREATE TABLE `chapters` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `name` varchar(255) DEFAULT NULL, `slug` varchar(255) DEFAULT NULL, PRIMARY KEY (`id`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;")
-	createTable(db, "posts", "CREATE TABLE `posts` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `site_id` int(11) unsigned DEFAULT NULL, `title` text, `url` varchar(255) DEFAULT NULL, `order` varchar(255) DEFAULT '0', PRIMARY KEY (`id`), KEY `site_id` (`site_id`), CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`site_id`) REFERENCES `sites` (`id`) ) ENGINE=InnoDB AUTO_INCREMENT=236 DEFAULT CHARSET=utf8;")
+	createTable(db, "posts", "CREATE TABLE `posts` ( `id` int(11) unsigned NOT NULL AUTO_INCREMENT, `chapter_id` int(11) unsigned DEFAULT NULL, `poem_vi` text, `poem_en` text, `youtube_id` varchar(255) DEFAULT NULL, PRIMARY KEY (`id`), KEY `chapter_id` (`chapter_id`), CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`chapter_id`) REFERENCES `chapters` (`id`) ) ENGINE=InnoDB AUTO_INCREMENT=424 DEFAULT CHARSET=utf8;")
 
 	chapterFiles, _ := ioutil.ReadDir("./data")
 	for _, f := range chapterFiles {
