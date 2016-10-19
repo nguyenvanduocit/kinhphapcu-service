@@ -28,7 +28,6 @@ type Chapter struct{
 	Id int `jsonapi:"primary,chapters"`
 	Slug string `jsonapi:"attr,slug"`
 	Name string `jsonapi:"attr,name"`
-	Total int `jsonapi:"attr,total"`
 	Items []*Item `jsonapi:"relation,items"`
 }
 
@@ -118,7 +117,7 @@ func (sv *Server)getData()([]*Chapter, error){
 	}
 	defer db.Close()
 
-	statement, err := db.Prepare("SELECT c.`id`, c.`slug`,  c.`name`, count(p.`id`) as total FROM `chapters` as c INNER JOIN `posts` AS p ON `c`.`id` = `p`.`chapter_id` GROUP By c.`id` ORDER BY c.`id`")
+	statement, err := db.Prepare("SELECT c.`id`, c.`slug`,  c.`name` FROM `chapters` as c ORDER BY c.`id`")
 	if err != nil {
 		return nil, err
 	}
@@ -133,7 +132,7 @@ func (sv *Server)getData()([]*Chapter, error){
 	var chapters []*Chapter
 	for rows.Next() {
 		var chapter Chapter;
-		if err := rows.Scan(&chapter.Id,&chapter.Slug, &chapter.Name, &chapter.Total); err != nil {
+		if err := rows.Scan(&chapter.Id,&chapter.Slug, &chapter.Name); err != nil {
 			return nil, err
 		}
 		chapter.Items, err = sv.getPostsByChapterId(chapter.Id)
@@ -153,7 +152,7 @@ func (sv *Server)getPostsByChapterId(chapterId int)([]*Item, error){
 	}
 	defer db.Close()
 
-	statement, err := db.Prepare("SELECT c.`id`, c.`poem_vi` as total FROM `posts` as c")
+	statement, err := db.Prepare("SELECT c.`id`, c.`poem_vi` FROM `posts` as c")
 	if err != nil {
 		return nil, err
 	}
