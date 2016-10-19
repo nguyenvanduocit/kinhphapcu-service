@@ -20,7 +20,8 @@ import (
 
 type Item struct {
 	Id int `jsonapi:"primary,items"`
-	PoemVi string `jsonapi:"attr,poem_vi"`
+	PoemVi string `jsonapi:"attr,poem_vi,omitempty"`
+	YoutubeId string `jsonapi:"attr,youtube_id,omitempty"`
 	Items *Chapter `jsonapi:"relation,chapter"`
 }
 
@@ -28,7 +29,7 @@ type Chapter struct{
 	Id int `jsonapi:"primary,chapters"`
 	Slug string `jsonapi:"attr,slug"`
 	Name string `jsonapi:"attr,name"`
-	Items []*Item `jsonapi:"relation,items"`
+	Items []*Item `jsonapi:"relation,items,omitempty"`
 }
 
 type Server struct{
@@ -152,7 +153,7 @@ func (sv *Server)getPostsByChapterId(chapterId int)([]*Item, error){
 	}
 	defer db.Close()
 
-	statement, err := db.Prepare("SELECT c.`id`, c.`poem_vi` FROM `posts` as c")
+	statement, err := db.Prepare("SELECT c.`id`, c.`poem_vi`, c.`youtube_id` FROM `posts` as c")
 	if err != nil {
 		return nil, err
 	}
@@ -167,9 +168,11 @@ func (sv *Server)getPostsByChapterId(chapterId int)([]*Item, error){
 	var items []*Item
 	for rows.Next() {
 		var item Item;
-		if err := rows.Scan(&item.Id,&item.PoemVi); err != nil {
+		var youtubeId sql.NullString
+		if err := rows.Scan(&item.Id,&item.PoemVi,&youtubeId); err != nil {
 			return nil, err
 		}
+		item.YoutubeId = youtubeId.String
 		items = append(items, &item);
 	}
 	return items, nil
